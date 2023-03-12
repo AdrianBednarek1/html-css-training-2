@@ -139,6 +139,7 @@
     display: flex;
     justify-content: center;
     gap: 80px;
+    padding: 20px 0;
 }
 .second-img{
     background-color: rgb(46, 44, 44);
@@ -171,5 +172,37 @@
     font-size: 20px;
     line-height: 1.2;
 }
+.second-text-boxes{
+    box-sizing: border-box;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.second-text-box{
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+    padding: 30px;
+    width: 400px;
+}
+.second-text-box h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: center;
+    line-height: 2.2;
+    font-size: 40px;
+}
+.second-text-box p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: left;
+    line-height: 1;
+    font-size: 20px;
+}
 .footer{
+    padding:200px 0;
+    background-image: linear-gradient(rgb(3, 7, 26),rgb(10, 49, 71));
 }   
