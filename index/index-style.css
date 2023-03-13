@@ -203,6 +203,20 @@
     font-size: 20px;
 }
 .footer{
-    padding:200px 0;
+    width: 100%;
+    padding:20px 0;
     background-image: linear-gradient(rgb(3, 7, 26),rgb(10, 49, 71));
 }   
+.socials{
+    padding: 50px 0;
+}
+.socials-container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.socials-container a{
+    color: rgb(146, 220, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
